@@ -29,7 +29,7 @@ This guide provides step-by-step instructions for installing Windows on a Contab
 - Log in with the command `ssh root@<MACHINE-IP>` and enter your Rescue System password.
 - Execute the following commands:
   - `apt install git -y`
-  - `git clone https://github.com/Th0masL/Windows-Server-Contabo-VPS.git`
+  - `git clone https://github.com/serramoney/Windows-Server-Contabo-VPS.git`
   - `cd Windows-Server-Contabo-VPS`
   - `bash update-apt-packages.sh`
   - `bash windows-install.sh`
