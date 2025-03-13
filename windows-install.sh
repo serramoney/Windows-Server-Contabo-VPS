@@ -207,10 +207,6 @@ mkfs.ntfs -f /dev/sda2  # Windows installation partition
 mkfs.ntfs -f /dev/sda3  # Temporary installer partition
 
 echo ""
-echo "Use gdisk to create a hybrid MBR for compatibility ..."
-echo -e "r\ng\np\nw\nY\n" | gdisk /dev/sda
-
-echo ""
 echo "Partitions created and formatted !"
 
 echo ""
