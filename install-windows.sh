@@ -21,8 +21,11 @@ MBR_PARTITION_SIZE_MB=100       # Prima partizione (bootloader) ~100 MB
 WINDOWS_PARTITION_SIZE_MB=30720 # Seconda partizione ~30 GB
 INSTALLER_PARTITION_SIZE_MB=10240 # Terza partizione ~10 GB
 
-# URL ISO Windows (esempio: Windows Server 2022 di prova)
+# URL ISO Windows
+#WINDOWS_SERVER_2019_EN_ISO_URL="https://software-static.download.prss.microsoft.com/dbazure/988969d5-f34g-4e03-ac9d-1f9786c66749/17763.3650.221105-1748.rs5_release_svc_refresh_SERVER_EVAL_x64FRE_en-us.iso"
+#WINDOWS_SERVER_2022_EN_ISO_URL="https://software-static.download.prss.microsoft.com/sg/download/888969d5-f34g-4e03-ac9d-1f9786c66749/SERVER_EVAL_x64FRE_en-us.iso"
 WINDOWS_ISO_URL="https://www.dropbox.com/scl/fi/ntcgvg59s6573f3d4pzv5/Windows.iso?rlkey=k4mjmw65c7ot9pc27tw7obo3o&dl=1"
+
 # URL ISO VirtIO (esempio stable)
 VIRTIO_ISO_URL="https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/virtio-win.iso"
 
