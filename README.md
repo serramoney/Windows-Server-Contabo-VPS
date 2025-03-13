@@ -32,7 +32,7 @@ This guide provides step-by-step instructions for installing Windows on a Contab
   - `git clone https://github.com/serramoney/Windows-Server-Contabo-VPS.git`
   - `cd Windows-Server-Contabo-VPS`
   - `bash update-apt-packages.sh`
-  - `bash windows-install.sh`
+  - `bash install-windows.sh`
   - The process takes approximately 15 minutes and completes when the ssh session disconnects due to the machine rebooting.
 
 ### 3. Connnect to the VPS with VNC to install Windows
